@@ -60,22 +60,33 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/section-1/matisse - 6.jpg": {
+	"/deploy/img/matisse - 6.jpg": {
 		"ft": 16384,
 		"iS": 266050,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-1/matisse - 6.jpg",
+		"oAP": "/deploy/img/matisse - 6.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-2/left side.png": {
+	"/deploy/img/section-1/matisse-6.jpg": {
+		"ft": 16384,
+		"iS": 266050,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-1/matisse-6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-2/left-side.png": {
 		"ft": 32768,
 		"iS": 860506,
 		"oA": 0,
-		"oAP": "/deploy/img/section-2/left side.png",
+		"oAP": "/deploy/img/section-2/left-side.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -93,11 +104,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-3/hero 2.png": {
+	"/deploy/img/section-3/hero2.png": {
 		"ft": 32768,
 		"iS": 1761385,
 		"oA": 0,
-		"oAP": "/deploy/img/section-3/hero 2.png",
+		"oAP": "/deploy/img/section-3/hero2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -181,11 +192,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-5/circle mask.png": {
+	"/deploy/img/section-5/circle-mask.png": {
 		"ft": 32768,
 		"iS": 190945,
 		"oA": 0,
-		"oAP": "/deploy/img/section-5/circle mask.png",
+		"oAP": "/deploy/img/section-5/circle-mask.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -243,8 +254,8 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dev/index.html",
-		"oF": 0
+		"oAP": "/deploy/index.html",
+		"oF": 2
 		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
