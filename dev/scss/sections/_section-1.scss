@@ -1,0 +1,25 @@
+/* =============
+    Section 1
+============= */
+
+#section-1{
+    
+    #section-1-container{
+        display: grid;
+        grid-template-columns: 15px auto 15px;
+        grid-template-areas: ". section-1 .";
+
+        #section-1-content{
+            grid-area: section-1;
+        }
+    }
+
+    aside{
+
+        img{
+            width: 100%;
+        }
+    }
+}
+
+
