@@ -3,15 +3,45 @@
 ============= */
 
 #section-5{
+    display: grid;
+    grid-template-columns: 15px auto 15px;
+    grid-template-areas: ". section-5 .";
+
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
 
     #section-5-container{ 
         display: grid;
-        grid-template-columns: 15px auto 15px;
-        grid-template-areas: ". section-5 ."
+        grid-area: section-5;
+        grid-template-rows: 2;
+        align-items: center;
+        grid-template-areas: 
+        "image"
+        "article";
+        grid-gap: 20px;
+
+        @include lg{
+            grid-template-columns: 30% 70%;
+            grid-template-areas: "image article";
+        }
+
+        #section-5-image{
+            grid-area: image;
+
+            img{
+                width: 100%;
+            }
+
+            @include md{
+                justify-content: center;
+            }
+        }
     }
      
 
-        #section-5-content{
-            grid-area: section-5;
+        #section-5-article{
+            grid-area: article;
         }
 }

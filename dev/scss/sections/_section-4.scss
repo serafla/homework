@@ -4,8 +4,12 @@
 
 #section-4{
     display: grid;
-    grid-template-columns: 15px auto 15px;
-    grid-template-areas: "section-4 section-4 section-4";
+    grid-template-columns: 0 auto 0;
+    grid-template-areas: ". section-4 .";
+
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
 
     ul{
         padding: 0;
@@ -14,10 +18,44 @@
         display: grid;
         gap: 20px;
 
+        @include md{
+            grid-template-columns: 50% auto;
+            grid-template-areas: 
+            "g1 g1"
+            "g2 g3";
+        }
+
+        @include lg{
+            grid-template-columns: 60% 40%;
+            grid-template-areas:
+            "g1 g2"
+            "g1 g3" ;
+        }
+        
         li{
             img{
                 width: 100%;
             }
         }
+
+        #g1{
+            @include md{
+                grid-area: g1;
+            }
+        }
+
+        #g2{
+            @include md{
+                grid-area: g2;
+            }
+        }
+        #g3{
+            @include md{
+                grid-area: g3;
+            }
+        }
+
     }
+
+        
 }
