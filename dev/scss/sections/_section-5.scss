@@ -28,6 +28,7 @@
         }
 
         #section-5-image{
+            margin-top: 50px;
             grid-area: image;
 
             img{
@@ -42,6 +43,13 @@
      
 
         #section-5-article{
+            @include md{
+                margin: 11.1731843575419vh;
+            }
+            @include lg{
+                margin: 11.1731843575419vh;
+            }
+            
             grid-area: article;
         }
 }

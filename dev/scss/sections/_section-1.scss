@@ -3,6 +3,27 @@
 ============= */
 
 #section-1{
+    margin-top: 52px;
+    background-image: url('../img/section-1/matisse-6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 41.340782122905026vh;
+
+    @include md{
+        height: 57.20670391061452vh;
+        margin-top: 58px;
+    }
+
+    @include lg{
+        height: 76.31284916201118vh;
+        margin-top: 70px;
+    }
+
+    @include xl{
+        height: 76.31284916201118vh;
+        margin-top: 70px;
+    }
     
     #section-1-container{
         display: grid;
@@ -13,15 +34,11 @@
         #section-1-content{
             grid-area: section-1;
             text-align: center;
+            color: white;
         }
     }
 
-    aside{
-
-        img{
-            width: 100%;
-        }
-    }
+   
 }
 
 

@@ -31,8 +31,19 @@
         }
 
         #section-2-image{
-            img{
-                width: 100%;
+            margin-top: 60px;
+            background-image: url('../img/section-2/left-side.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 53.63128491620112vh;
+
+            @include md{
+                height: 46.70391061452514vh;
+            }
+
+            @include lg{
+                height: 76.31284916201118vh;
             }
         }
 
@@ -53,7 +64,13 @@
             }
 
         #section-2-exhibition-text{
-            grid-area: section-2-exhibition-text;
+            margin-top: 67px;
+            margin-bottom: 67px;
+            grid-area: section-2-exhibition-text; 
+            
+            hr{
+                border-color: $gold; 
+            }
         }
     }
     

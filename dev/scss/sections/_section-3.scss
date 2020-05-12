@@ -5,9 +5,16 @@
 #section-3{
 
     aside{
-        img{
-            width: 100%;
-        }
+        margin-top: 55px;
+        background-image: url('../img/section-3/hero2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 57.6536312849162vh;
+
+        @include lg{
+            height: 76.20111731843575vh;
+        } 
     }
 
     #section-3-container{ 
@@ -18,7 +25,14 @@
      
 
         #section-3-content{
+            margin-top: 67px;
+            margin-bottom: 67px;
             grid-area: section-3;
             text-align: center;
+            color: $gold;
+
+            hr{
+                border-color: $light-gray
+            }
         }
 }

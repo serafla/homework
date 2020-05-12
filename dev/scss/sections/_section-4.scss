@@ -17,39 +17,46 @@
         grid-area: section-4;
         display: grid;
         gap: 20px;
+        grid-template-rows: repeat(2, 324px);
 
         @include md{
             grid-template-columns: 50% auto;
             grid-template-areas: 
             "g1 g1"
             "g2 g3";
+            grid-template-rows: repeat(2, 277px);
         }
 
         @include lg{
             grid-template-columns: 60% 40%;
             grid-template-areas:
             "g1 g2"
-            "g1 g3" ;
+            "g1 g3";
+            grid-template-rows: repeat(2, 250px);
         }
         
         li{
-            img{
-                width: 100%;
-            }
+           background-position: center;
+           background-size: cover;
         }
 
         #g1{
+            background-image: url("../img/section-4/gallery-1.png");
             @include md{
                 grid-area: g1;
             }
         }
 
         #g2{
+            background-image: url("../img/section-4/gallery-2.jpg");
+            
             @include md{
                 grid-area: g2;
             }
         }
         #g3{
+            background-image: url("../img/section-4/gallery-3.jpg");
+          
             @include md{
                 grid-area: g3;
             }
