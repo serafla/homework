@@ -440,7 +440,7 @@ footer {
   align-items: center;
   grid-template-columns: 5% auto 5%;
   grid-template-areas: ". logo copyright"; }
-  footer #logo {
+  footer #logo-footer {
     grid-area: logo; }
   footer #copyright {
     grid-area: copyright; }
