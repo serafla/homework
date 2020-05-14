@@ -35,13 +35,20 @@
             @include lg {
                 display: none !important;
             }
+
         }
 
         #nav-container {
-            background-color: $gold;
+            background-color: $light-gray;
             display: none;
             grid-area: nav;
             padding: 10px;
+
+            ul{
+                list-style-type: none;
+                color: $black;
+                
+            }
 
             @include lg {
                 background-color: $gold;
